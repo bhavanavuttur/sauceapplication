@@ -1,0 +1,274 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1625328068991' stop='1625328113669'>
+    <name>open Swag Labs Page</name>
+    <title>open Swag Labs Page</title>
+    <test-cases>
+        <test-case start='1625328068992' status='passed' stop='1625328073527'>
+            <name>Validate Login credentials </name>
+            <title>Validate Login credentials </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps>
+                <step start='1625328068996' status='passed' stop='1625328070144'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ca21ec14-8a76-4eb4-b67d-fe685415779b-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625328070144' status='passed' stop='1625328070654'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='bd7b2b00-1035-4600-84b9-3b07b20d1901-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625328070659' status='passed' stop='1625328070742'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='98adb5df-4be2-40b8-856b-da1b48f248e3-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625328071757' status='passed' stop='1625328071819'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ef31adb9-b215-4ecc-81cc-6afdfdf70f37-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='d91dc12d-e6f2-4768-a655-6c5afeb8a6fa-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625328071843' status='passed' stop='1625328071981'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='ad527591-e4aa-41a5-978f-568340ab3ca5-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='bf0249a9-92d2-4b42-a33b-2bd5f898afa0-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625328071981' status='passed' stop='1625328072081'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='0540d516-0dfc-4238-82c8-82bab5d3e893-attachment.json' type='application/json' size='5649'/>
+                        <attachment title='Response' source='862c5d15-2727-43b9-bf72-464d6ae66136-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625328072082' status='passed' stop='1625328072129'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='bd1df4ff-38fa-4f48-9429-9bc67aeaef5f-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='e4002bc7-f42c-4129-be8c-2bc166484faa-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625328072137' status='passed' stop='1625328072250'>
+                    <name>POST /session/:sessionId/element/5b358507-21d0-4be9-9b40-c7a73189dd83/clear</name>
+                    <title>POST /session/:sessionId/element/5b358507-21d0-4be9-9b40-c7a73189dd83/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625328072261' status='passed' stop='1625328072497'>
+                    <name>POST /session/:sessionId/element/5b358507-21d0-4be9-9b40-c7a73189dd83/value</name>
+                    <title>POST /session/:sessionId/element/5b358507-21d0-4be9-9b40-c7a73189dd83/value</title>
+                    <attachments>
+                        <attachment title='Request' source='32325400-bdf1-4b71-b665-532af987d479-attachment.json' type='application/json' size='29'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625328072498' status='passed' stop='1625328072627'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7de037ad-e936-4466-b3cb-b9cbc5a494f2-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='88723218-d6bb-49d2-a11d-6f536ff7a5fe-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625328072631' status='passed' stop='1625328072901'>
+                    <name>POST /session/:sessionId/element/fb2ac3b8-e480-4612-b376-a6e4eb8bd1ff/clear</name>
+                    <title>POST /session/:sessionId/element/fb2ac3b8-e480-4612-b376-a6e4eb8bd1ff/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625328072902' status='passed' stop='1625328073138'>
+                    <name>POST /session/:sessionId/element/fb2ac3b8-e480-4612-b376-a6e4eb8bd1ff/value</name>
+                    <title>POST /session/:sessionId/element/fb2ac3b8-e480-4612-b376-a6e4eb8bd1ff/value</title>
+                    <attachments>
+                        <attachment title='Request' source='908ff345-55d7-4ac8-b379-c0a3aad2b0aa-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625328073139' status='passed' stop='1625328073197'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='23c36a09-5524-4b26-b59b-d46a6d21d54e-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='0e66acee-8fea-4daf-bd74-0ad64d40996e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625328073203' status='passed' stop='1625328073526'>
+                    <name>POST /session/:sessionId/element/2c945e9a-0429-49bb-b924-ff1f962d2515/click</name>
+                    <title>POST /session/:sessionId/element/2c945e9a-0429-49bb-b924-ff1f962d2515/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1625328073527' status='failed' stop='1625328083562'>
+            <name>should verify products title page and add to cart</name>
+            <title>should verify products title page and add to cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps>
+                <step start='1625328083549' status='failed' stop='1625328083561'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Expect  to have text containing
+                
+                Expected: "PRODUCTS"
+                Received: undefined</message>
+                <stack-trace>Error: Expect  to have text containing
+                
+                Expected: "PRODUCTS"
+                Received: undefined
+                    at Context.&lt;anonymous> (C:\Users\bvuttur\Desktop\Application\test\specs\applicationtest.js:14:43)
+                    at Context.executeAsync (C:\Users\bvuttur\Desktop\Application\node_modules\@wdio\utils\build\shim.js:136:25)
+                    at Context.testFrameworkFnWrapper (C:\Users\bvuttur\Desktop\Application\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1625328083565' status='failed' stop='1625328093583'>
+            <name>should verify title on cart page and navigating to checkout</name>
+            <title>should verify title on cart page and navigating to checkout</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps>
+                <step start='1625328093575' status='failed' stop='1625328093583'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='0ed054f2-d7d6-4322-8c0f-8b3aed3e73b4-attachment.png' type='image/png' size='679009'/>
+            </attachments>
+            <failure>
+                <message>Expect  to have text containing
+                
+                Expected: "YOUR CART"
+                Received: undefined</message>
+                <stack-trace>Error: Expect  to have text containing
+                
+                Expected: "YOUR CART"
+                Received: undefined
+                    at Context.&lt;anonymous> (C:\Users\bvuttur\Desktop\Application\test\specs\applicationtest.js:22:40)
+                    at Context.executeAsync (C:\Users\bvuttur\Desktop\Application\node_modules\@wdio\utils\build\shim.js:136:25)
+                    at Context.testFrameworkFnWrapper (C:\Users\bvuttur\Desktop\Application\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1625328093601' status='failed' stop='1625328103629'>
+            <name>Verifying checkout page</name>
+            <title>Verifying checkout page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps>
+                <step start='1625328103619' status='failed' stop='1625328103629'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='607c3a55-26a1-429a-8a38-d905d5e272cc-attachment.png' type='image/png' size='34597'/>
+            </attachments>
+            <failure>
+                <message>Expect  to have text containing
+                
+                Expected: "CHECKOUT: YOUR INFORMATION"
+                Received: undefined</message>
+                <stack-trace>Error: Expect  to have text containing
+                
+                Expected: "CHECKOUT: YOUR INFORMATION"
+                Received: undefined
+                    at Context.&lt;anonymous> (C:\Users\bvuttur\Desktop\Application\test\specs\applicationtest.js:29:44)
+                    at Context.executeAsync (C:\Users\bvuttur\Desktop\Application\node_modules\@wdio\utils\build\shim.js:136:25)
+                    at Context.testFrameworkFnWrapper (C:\Users\bvuttur\Desktop\Application\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1625328103639' status='failed' stop='1625328113660'>
+            <name>should verify final page and click on finish</name>
+            <title>should verify final page and click on finish</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps>
+                <step start='1625328113650' status='failed' stop='1625328113660'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Expect  to have text containing
+                
+                Expected: "CHECKOUT: OVERVIEW"
+                Received: undefined</message>
+                <stack-trace>Error: Expect  to have text containing
+                
+                Expected: "CHECKOUT: OVERVIEW"
+                Received: undefined
+                    at Context.&lt;anonymous> (C:\Users\bvuttur\Desktop\Application\test\specs\applicationtest.js:38:42)
+                    at Context.executeAsync (C:\Users\bvuttur\Desktop\Application\node_modules\@wdio\utils\build\shim.js:136:25)
+                    at Context.testFrameworkFnWrapper (C:\Users\bvuttur\Desktop\Application\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

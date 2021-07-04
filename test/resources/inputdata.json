@@ -1,0 +1,11 @@
+{
+    "login": {
+        "uname": "standard_user",
+        "pwd": "secret_sauce"
+    },
+    "checkoutinfo": {
+        "FirstName": "bhavana",
+        "LastName": "vuttur",
+        "PostalCode": "502303"
+    }
+}
